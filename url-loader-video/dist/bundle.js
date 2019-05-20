@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "./dist/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -3553,84 +3553,95 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
 
 /***/ }),
 
-/***/ "./url-loader-fonts/src/css/estilos.css":
+/***/ "./url-loader-video/src/css/estilos.css":
 /*!**********************************************!*\
-  !*** ./url-loader-fonts/src/css/estilos.css ***!
+  !*** ./url-loader-video/src/css/estilos.css ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./url-loader-fonts/src/css/estilos.css?");
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./url-loader-video/src/css/estilos.css?");
 
 /***/ }),
 
-/***/ "./url-loader-fonts/src/images/platzi-logo.png":
+/***/ "./url-loader-video/src/images/platzi-logo.png":
 /*!*****************************************************!*\
-  !*** ./url-loader-fonts/src/images/platzi-logo.png ***!
+  !*** ./url-loader-video/src/images/platzi-logo.png ***!
   \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOYAAABICAMAAADVonkXAAAAnFBMVEUAAAD///////////////////+XyT7///////////+XyT7///+XyT6XyT6XyT7v9+P///////+XyT6XyT7///+XyT7///+XyT6XyT7///////+XyT6XyT6XyT7///////////////////+XyT7///+XyT7///+XyT7///+XyT7///////+XyT7///+XyT6XyT6XyT6XyT7///+XyT5WQtlnAAAAMnRSTlMAkBBg4FD8IG6AC7BC904D+S/ovvGyCgbx5sdoWx+jeNM/SDc2e5gtKI4YucmJ0qTbSZlyhCoAAAT5SURBVHja5dxtd5owGAbgB0RB7QoopQMrgkNLtfYF//9/m5pkkQR8yMnmOYP7U1UULhKSAKGAZLJ4mh2PPz7eHqC7ed78PLJ8dBa6/Dhe582FLuZ1dqzm6Rm6l7Oy+86zsvvOX6fGp/tOppSdE+hOuFLKvDvOs7L7zrOy+05J+dVFp6RcTObdcz5ISgAFZziVkhhO7tYtNIB/HXM1na7MOuWPKmh0Uqo4zbI2QZLLCxnwj7OzylMsG1e+ANQ63ycIU8rUvjszoWtuo6TOJ8SJMstgeG9mRNbj4co/eZadCFOOc2emV5LgStyJM3mG92XGZD0pqlR0cuaYx9h7jBnsNJimcUkGrbOu7FyS7xol4pw/NzKrHYgTsHZIg2mzmq/gjMvSqigfR7ISdW4wJott0ff9uzB5QhNuKh8BcOePZUsm2LQ8t3dmAqps43xrywSHvB+5d2fiSjnuZ2XBWWumG9Fae3cmrsSdr22ZsCUfDDCmu7NtO1Rg6itx50tr5oB8cLjF9Fd7i3Y98daxgSYkHRP5ZD9mWcMpmVEfEwAKspyPKXHnAmFKndi2kekO0rKa9FDcGnMY/JiXEpyZQ16B4EFRCcsv9dLkzKSJmRGkkNhXZTJalbmcCX3Et4ry+K1aaY0GpuM1b686cw8C81NQPigpj0vVJmhVzxyXPPrMwBaYy5GW8qN9h0LblnUtc1DSeNPVMMuGThJdM61zIkqwWMaXb1rXCVhrLDA3Kkq5ii8QpgTxTJnJx0jewQQal22jSodikn0ZuyJzrqWcTdoydxE/aGRmQgsqAx5Tkcl/xytAZP7UUR4foSXTjPkZJ2dyAKvQGkzOGoPE1FJuoCVzbbGe0K1jjllfo8fcBXQdCFNR+QbNzCHP4GCVLBnUMWlRF5rMPamyOQBSafWU+EWSA9QxXVrSoMd0KutAmiANJcpMoJbp02GgHrMg4wsrFJhKHcorqsSZhlvPXNOBgxbTjdlhwYMPD3ClKjMaAghMYWu0mGOxSuCDPVy5AUWm5YSgxrSVmDmtsibwoEN3XIkxI4snnq5yIFGotLkK002lKoufiOFKlGmDmGZmUddtwkCFuRJaWZmJn1YvEKUu0/X41TCeBGPKrWwaNjCVnbJSnwlxzVgvDETmTq7b1R/wfGhiqjs3oM8UWsUDeR0L1VBghuxbUhxhB0hMdecG9JngsbMVNj6QttMPJCZEpGY2jWVjF2G2cY74CaY+kwxyg1CoteWYbWkelTSOOGYtcxAyZVcMUCbufBlxpTZzL5TemqFSxwYws+Rc3J5YR1flrYbG8CtxBSZ+q4g7F6DDlA+85HxBhBYIi3fiESB56RSmcFqark+GMF/FxWWNUVkXU2DyG3+okyr1mUXJY9HJEGKiHfMavI+h8azL8kPyJspUu437OfkrTKH0AgIXy8TLIBWZdiDf5F+XOFPxpvx88reY9pWKvhNXyzIHGIhMyDzxCmZoqTLxKRbMqc+Egm8ebVFch9M9wyT9qcCEPL2mTMmuQJmqE2ZwZ8jv1CALDvbBpdjiEGjctRFHQZBOnR0rdGebJOO8cqMlpiVqTR375DYacv5Vn/yZq09/eudO/Zj2LgTlhH42zHylL6pPZnv//6cl3pqa2DVn/UTTHji/pOtAnUg/JoH3ZUp/Xx7Q6MvjNn15eKovj8L15cHGvjym2peHjvvyCHl3/iHAb+TFOWKbsDrOAAAAAElFTkSuQmCC\"\n\n//# sourceURL=webpack:///./url-loader-fonts/src/images/platzi-logo.png?");
+eval("module.exports = \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOYAAABICAMAAADVonkXAAAAnFBMVEUAAAD///////////////////+XyT7///////////+XyT7///+XyT6XyT6XyT7v9+P///////+XyT6XyT7///+XyT7///+XyT6XyT7///////+XyT6XyT6XyT7///////////////////+XyT7///+XyT7///+XyT7///+XyT7///////+XyT7///+XyT6XyT6XyT6XyT7///+XyT5WQtlnAAAAMnRSTlMAkBBg4FD8IG6AC7BC904D+S/ovvGyCgbx5sdoWx+jeNM/SDc2e5gtKI4YucmJ0qTbSZlyhCoAAAT5SURBVHja5dxtd5owGAbgB0RB7QoopQMrgkNLtfYF//9/m5pkkQR8yMnmOYP7U1UULhKSAKGAZLJ4mh2PPz7eHqC7ed78PLJ8dBa6/Dhe582FLuZ1dqzm6Rm6l7Oy+86zsvvOX6fGp/tOppSdE+hOuFLKvDvOs7L7zrOy+05J+dVFp6RcTObdcz5ISgAFZziVkhhO7tYtNIB/HXM1na7MOuWPKmh0Uqo4zbI2QZLLCxnwj7OzylMsG1e+ANQ63ycIU8rUvjszoWtuo6TOJ8SJMstgeG9mRNbj4co/eZadCFOOc2emV5LgStyJM3mG92XGZD0pqlR0cuaYx9h7jBnsNJimcUkGrbOu7FyS7xol4pw/NzKrHYgTsHZIg2mzmq/gjMvSqigfR7ISdW4wJott0ff9uzB5QhNuKh8BcOePZUsm2LQ8t3dmAqps43xrywSHvB+5d2fiSjnuZ2XBWWumG9Fae3cmrsSdr22ZsCUfDDCmu7NtO1Rg6itx50tr5oB8cLjF9Fd7i3Y98daxgSYkHRP5ZD9mWcMpmVEfEwAKspyPKXHnAmFKndi2kekO0rKa9FDcGnMY/JiXEpyZQ16B4EFRCcsv9dLkzKSJmRGkkNhXZTJalbmcCX3Et4ry+K1aaY0GpuM1b686cw8C81NQPigpj0vVJmhVzxyXPPrMwBaYy5GW8qN9h0LblnUtc1DSeNPVMMuGThJdM61zIkqwWMaXb1rXCVhrLDA3Kkq5ii8QpgTxTJnJx0jewQQal22jSodikn0ZuyJzrqWcTdoydxE/aGRmQgsqAx5Tkcl/xytAZP7UUR4foSXTjPkZJ2dyAKvQGkzOGoPE1FJuoCVzbbGe0K1jjllfo8fcBXQdCFNR+QbNzCHP4GCVLBnUMWlRF5rMPamyOQBSafWU+EWSA9QxXVrSoMd0KutAmiANJcpMoJbp02GgHrMg4wsrFJhKHcorqsSZhlvPXNOBgxbTjdlhwYMPD3ClKjMaAghMYWu0mGOxSuCDPVy5AUWm5YSgxrSVmDmtsibwoEN3XIkxI4snnq5yIFGotLkK002lKoufiOFKlGmDmGZmUddtwkCFuRJaWZmJn1YvEKUu0/X41TCeBGPKrWwaNjCVnbJSnwlxzVgvDETmTq7b1R/wfGhiqjs3oM8UWsUDeR0L1VBghuxbUhxhB0hMdecG9JngsbMVNj6QttMPJCZEpGY2jWVjF2G2cY74CaY+kwxyg1CoteWYbWkelTSOOGYtcxAyZVcMUCbufBlxpTZzL5TemqFSxwYws+Rc3J5YR1flrYbG8CtxBSZ+q4g7F6DDlA+85HxBhBYIi3fiESB56RSmcFqark+GMF/FxWWNUVkXU2DyG3+okyr1mUXJY9HJEGKiHfMavI+h8azL8kPyJspUu437OfkrTKH0AgIXy8TLIBWZdiDf5F+XOFPxpvx88reY9pWKvhNXyzIHGIhMyDzxCmZoqTLxKRbMqc+Egm8ebVFch9M9wyT9qcCEPL2mTMmuQJmqE2ZwZ8jv1CALDvbBpdjiEGjctRFHQZBOnR0rdGebJOO8cqMlpiVqTR375DYacv5Vn/yZq09/eudO/Zj2LgTlhH42zHylL6pPZnv//6cl3pqa2DVn/UTTHji/pOtAnUg/JoH3ZUp/Xx7Q6MvjNn15eKovj8L15cHGvjym2peHjvvyCHl3/iHAb+TFOWKbsDrOAAAAAElFTkSuQmCC\"\n\n//# sourceURL=webpack:///./url-loader-video/src/images/platzi-logo.png?");
 
 /***/ }),
 
-/***/ "./url-loader-fonts/src/js/index.js":
+/***/ "./url-loader-video/src/js/index.js":
 /*!******************************************!*\
-  !*** ./url-loader-fonts/src/js/index.js ***!
+  !*** ./url-loader-video/src/js/index.js ***!
   \******************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_estilos_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/estilos.css */ \"./url-loader-fonts/src/css/estilos.css\");\n/* harmony import */ var _css_estilos_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_estilos_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _images_platzi_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/platzi-logo.png */ \"./url-loader-fonts/src/images/platzi-logo.png\");\n/* harmony import */ var _images_platzi_logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_platzi_logo_png__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _message_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./message.js */ \"./url-loader-fonts/src/js/message.js\");\n\n\n //console.log('hola mundo!, desde webpack');\n\ndocument.write(_message_js__WEBPACK_IMPORTED_MODULE_2__[\"firstMessage\"]);\nObject(_message_js__WEBPACK_IMPORTED_MODULE_2__[\"delayedMessage\"])();\nvar img = document.createElement(\"img\");\nimg.setAttribute(\"src\", _images_platzi_logo_png__WEBPACK_IMPORTED_MODULE_1___default.a);\ndocument.body.append(img);\nconsole.log(\"hola mundo!, desde webpack en un webpack.config\");\n\n//# sourceURL=webpack:///./url-loader-fonts/src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_estilos_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/estilos.css */ \"./url-loader-video/src/css/estilos.css\");\n/* harmony import */ var _css_estilos_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_estilos_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _images_platzi_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/platzi-logo.png */ \"./url-loader-video/src/images/platzi-logo.png\");\n/* harmony import */ var _images_platzi_logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_platzi_logo_png__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _message_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./message.js */ \"./url-loader-video/src/js/message.js\");\n/* harmony import */ var _video_que_es_core_mp4__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../video/que-es-core.mp4 */ \"./url-loader-video/src/video/que-es-core.mp4\");\n/* harmony import */ var _video_que_es_core_mp4__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_video_que_es_core_mp4__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n //console.log('hola mundo!, desde webpack');\n\ndocument.write(_message_js__WEBPACK_IMPORTED_MODULE_2__[\"firstMessage\"]);\nObject(_message_js__WEBPACK_IMPORTED_MODULE_2__[\"delayedMessage\"])();\nvar img = document.createElement(\"img\");\nimg.setAttribute(\"src\", _images_platzi_logo_png__WEBPACK_IMPORTED_MODULE_1___default.a);\ndocument.body.append(img);\nvar video = document.createElement(\"video\");\nvideo.setAttribute(\"src\", _video_que_es_core_mp4__WEBPACK_IMPORTED_MODULE_3___default.a);\nvideo.setAttribute(\"width\", 480);\nvideo.setAttribute(\"autoplay\", true);\nvideo.setAttribute(\"mute\", true);\nvideo.setAttribute(\"controls\", true);\ndocument.body.append(video);\nconsole.log(\"hola mundo!, desde webpack en un webpack.config\");\n\n//# sourceURL=webpack:///./url-loader-video/src/js/index.js?");
 
 /***/ }),
 
-/***/ "./url-loader-fonts/src/js/make-message.js":
+/***/ "./url-loader-video/src/js/make-message.js":
 /*!*************************************************!*\
-  !*** ./url-loader-fonts/src/js/make-message.js ***!
+  !*** ./url-loader-video/src/js/make-message.js ***!
   \*************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nfunction makeMessage(msg) {\n  var elem = document.createElement(\"p\");\n  elem.textContent = msg;\n  return elem;\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (makeMessage);\n\n//# sourceURL=webpack:///./url-loader-fonts/src/js/make-message.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nfunction makeMessage(msg) {\n  var elem = document.createElement(\"p\");\n  elem.textContent = msg;\n  return elem;\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (makeMessage);\n\n//# sourceURL=webpack:///./url-loader-video/src/js/make-message.js?");
 
 /***/ }),
 
-/***/ "./url-loader-fonts/src/js/message.js":
+/***/ "./url-loader-video/src/js/message.js":
 /*!********************************************!*\
-  !*** ./url-loader-fonts/src/js/message.js ***!
+  !*** ./url-loader-video/src/js/message.js ***!
   \********************************************/
 /*! exports provided: firstMessage, delayedMessage */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"firstMessage\", function() { return firstMessage; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"delayedMessage\", function() { return delayedMessage; });\n/* harmony import */ var _render_to_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./render-to-dom */ \"./url-loader-fonts/src/js/render-to-dom.js\");\n/* harmony import */ var _make_message__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./make-message */ \"./url-loader-fonts/src/js/make-message.js\");\nfunction asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }\n\nfunction _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err); } _next(undefined); }); }; }\n\n\n\nvar waitTime = new Promise(function (resolve, reject) {\n  setTimeout(function () {\n    resolve(\"Han pasado 3 segundo, omg\");\n  }, 3000);\n});\nvar firstMessage = \"hola mundo desde un modulo\";\nvar delayedMessage =\n/*#__PURE__*/\nfunction () {\n  var _ref = _asyncToGenerator(\n  /*#__PURE__*/\n  regeneratorRuntime.mark(function _callee() {\n    var message;\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            _context.next = 2;\n            return waitTime;\n\n          case 2:\n            message = _context.sent;\n            console.log(message);\n            Object(_render_to_dom__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(Object(_make_message__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(message));\n\n          case 5:\n          case \"end\":\n            return _context.stop();\n        }\n      }\n    }, _callee);\n  }));\n\n  return function delayedMessage() {\n    return _ref.apply(this, arguments);\n  };\n}();\n\n//# sourceURL=webpack:///./url-loader-fonts/src/js/message.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"firstMessage\", function() { return firstMessage; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"delayedMessage\", function() { return delayedMessage; });\n/* harmony import */ var _render_to_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./render-to-dom */ \"./url-loader-video/src/js/render-to-dom.js\");\n/* harmony import */ var _make_message__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./make-message */ \"./url-loader-video/src/js/make-message.js\");\nfunction asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }\n\nfunction _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err); } _next(undefined); }); }; }\n\n\n\nvar waitTime = new Promise(function (resolve, reject) {\n  setTimeout(function () {\n    resolve(\"Han pasado 3 segundo, omg\");\n  }, 3000);\n});\nvar firstMessage = \"hola mundo desde un modulo\";\nvar delayedMessage =\n/*#__PURE__*/\nfunction () {\n  var _ref = _asyncToGenerator(\n  /*#__PURE__*/\n  regeneratorRuntime.mark(function _callee() {\n    var message;\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            _context.next = 2;\n            return waitTime;\n\n          case 2:\n            message = _context.sent;\n            console.log(message);\n            Object(_render_to_dom__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(Object(_make_message__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(message));\n\n          case 5:\n          case \"end\":\n            return _context.stop();\n        }\n      }\n    }, _callee);\n  }));\n\n  return function delayedMessage() {\n    return _ref.apply(this, arguments);\n  };\n}();\n\n//# sourceURL=webpack:///./url-loader-video/src/js/message.js?");
 
 /***/ }),
 
-/***/ "./url-loader-fonts/src/js/render-to-dom.js":
+/***/ "./url-loader-video/src/js/render-to-dom.js":
 /*!**************************************************!*\
-  !*** ./url-loader-fonts/src/js/render-to-dom.js ***!
+  !*** ./url-loader-video/src/js/render-to-dom.js ***!
   \**************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return renderToDom; });\nfunction renderToDom(element) {\n  document.body.append(element);\n}\n\n//# sourceURL=webpack:///./url-loader-fonts/src/js/render-to-dom.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return renderToDom; });\nfunction renderToDom(element) {\n  document.body.append(element);\n}\n\n//# sourceURL=webpack:///./url-loader-video/src/js/render-to-dom.js?");
+
+/***/ }),
+
+/***/ "./url-loader-video/src/video/que-es-core.mp4":
+/*!****************************************************!*\
+  !*** ./url-loader-video/src/video/que-es-core.mp4 ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"videos/que-es-core.7a8923a28f2c8458d615a3f8743d8339.mp4\";\n\n//# sourceURL=webpack:///./url-loader-video/src/video/que-es-core.mp4?");
 
 /***/ }),
 
 /***/ 0:
 /*!****************************************************************!*\
-  !*** multi @babel/polyfill ./url-loader-fonts/src/js/index.js ***!
+  !*** multi @babel/polyfill ./url-loader-video/src/js/index.js ***!
   \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! @babel/polyfill */\"./node_modules/@babel/polyfill/lib/index.js\");\nmodule.exports = __webpack_require__(/*! /mnt/c/Users/roso/Documents/platzi/practicaWebpack/url-loader-fonts/src/js/index.js */\"./url-loader-fonts/src/js/index.js\");\n\n\n//# sourceURL=webpack:///multi_@babel/polyfill_./url-loader-fonts/src/js/index.js?");
+eval("__webpack_require__(/*! @babel/polyfill */\"./node_modules/@babel/polyfill/lib/index.js\");\nmodule.exports = __webpack_require__(/*! /mnt/c/Users/roso/Documents/platzi/practicaWebpack/url-loader-video/src/js/index.js */\"./url-loader-video/src/js/index.js\");\n\n\n//# sourceURL=webpack:///multi_@babel/polyfill_./url-loader-video/src/js/index.js?");
 
 /***/ })
 

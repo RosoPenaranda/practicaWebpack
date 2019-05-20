@@ -5,7 +5,8 @@ const config = {
   entry: ["@babel/polyfill", path.resolve(__dirname, "src/js/index.js")],
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "bundle.js"
+    filename: "bundle.js",
+    publicPath: "./dist/"
   },
   module: {
     rules: [
@@ -21,12 +22,24 @@ const config = {
         }
       },
       {
-        test: /\.(png|jpg|gif|woff|eot|ttf|svg)$/i,
+        test: /\.(png|jpg|gif|woff|eot|ttf|svg)$/,
         use: [
           {
             loader: "url-loader",
             options: {
               limit: 1000000
+            }
+          }
+        ]
+      },
+      {
+        test: /\.(mp4|webm)$/,
+        use: [
+          {
+            loader: "url-loader",
+            options: {
+              limit: 1000000,
+              name: "videos/[name].[hash].[ext]"
             }
           }
         ]
